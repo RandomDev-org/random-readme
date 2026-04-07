@@ -13,9 +13,13 @@ para la asignatura `Fundamentos de Ingeniería de Software`.
 ## Proyecto
 
 En este proyecto se va a realizar una aplicación web que estará basada
-en resolver la historia de  [usuario escogida](https://github.com/RandomDev-org/random-readme/issues/5) para esta asignatura.
+en resolver la historia de usuario escogidapara esta asignatura.
 
 ## Problemática
+
+### Descripción
+Los músicos y personas del ambiente musical carecen de un lugar centralizado, geolocalizado (con mapa) y actualizado para encontrar espacios sociales donde compartir y colaborar musicalmente. Los medios actuales son muy cerrados o desactualizados.
+
 ### Stakeholders
 | Stakeholder | Qué buscan |
 | :--- | :--- |
@@ -74,7 +78,6 @@ integrarse de manera facil.
 ## Solución
 
 ### Descripción
-
 Resolvemos la falta de visibilidad de espacios musicales a través de un mapa colaborativo en un entorno gamificado y actualizado. Conectamos músicos, público y productores en una misma app, eliminando barreras de entradas y desconocimiento a lugares existentes, centralizando toda la información en un lugar.
 
 ### Objetivos de la solución
