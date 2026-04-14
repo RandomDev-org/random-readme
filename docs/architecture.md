@@ -86,3 +86,5 @@ Recibe "eventos de éxito" de otros módulos (como asistir a un local o dejar un
 Expone la confirmación de asistencia a eventos y emite notificaciones a los usuarios.
 
 ---
+
+### [Ver Figma](https://www.figma.com/site/4btdKLEOH2CdNf9QcaTx1D/MusicSpot)

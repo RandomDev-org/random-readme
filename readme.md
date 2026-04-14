@@ -15,5 +15,6 @@ para la asignatura `Fundamentos de Ingeniería de Software`.
 - [Ver historia de usuario](docs/user-story.md)
 - [Ver problemática](docs/problem.md)
 - [Ver solución](docs/solution.md)
-- [Ver arquitectura del Software](docs/architecture.md)
+- [Ver arquitectura del software](docs/architecture.md)
+- [Ver Figma](https://www.figma.com/site/4btdKLEOH2CdNf9QcaTx1D/MusicSpot)
 
