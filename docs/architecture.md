@@ -87,4 +87,4 @@ Expone la confirmación de asistencia a eventos y emite notificaciones a los usu
 
 ---
 
-### [Ver Figma](https://www.figma.com/site/4btdKLEOH2CdNf9QcaTx1D/MusicSpot)
+### [Ver Figma](https://try-step-50438657.figma.site/)
