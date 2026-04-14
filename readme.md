@@ -10,11 +10,6 @@ para la asignatura `Fundamentos de Ingeniería de Software`.
 - [@Jason Monroy](https://github.com/Ginger110) ⭢ Dev
 - [@Vicente Tapia](https://github.com/xSeVeN-bot) ⭢ Dev
 
-## Proyecto
-
-En este proyecto se va a realizar una aplicación web que estará basada
-en resolver la historia de usuario escogidapara esta asignatura.
-
 ## Documentación 
 
 - [Ver historia de usuario](docs/user-story.md)
