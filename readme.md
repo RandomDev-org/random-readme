@@ -105,3 +105,9 @@ Resolvemos la falta de visibilidad de espacios musicales a través de un mapa co
 | Productor | Identificación fácil de talentos emergentes. |
 | Dueño de locales | Mayor visibilidad y dinamismo. |
 | Entidades culturales | Mayor visibilidad de cultura local. |
+
+---
+
+## Documentación 
+
+- [Ver arquitectura del Software](./docs/arquitectura.md)
