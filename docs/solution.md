@@ -30,5 +30,3 @@ Resolvemos la falta de visibilidad de espacios musicales a través de un mapa co
 | Entidades culturales | Mayor visibilidad de cultura local. |
 
 ---
-
-### [Ver arquitectura de la solución](./architecture.md)

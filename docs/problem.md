@@ -57,6 +57,3 @@ integrarse de manera facil.
 | Productores | Descubrimiento de talento emergente limitado.  |
 | Dueños de locales | Menos clientes en sus locales, menos ganancias. |
 | Entidades culturales | Menor dinamismo en la cultura local. |
-
-
-### [Ver solución a la problemática](./solution.md)

@@ -1,4 +1,4 @@
-# Mapa Musical - RandomDevelopment
+# RandomDevelopment
 
 Proyecto universitario para la asignatura Fundamentos de Ingeniería de Software.
 
