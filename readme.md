@@ -16,7 +16,7 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 
 ## Documentación
 
-- [Historias de usuario](docs/user-story.md)
+- [Historias de usuario](https://github.com/RandomDev-org/random-readme/issues)
 - [Problemática](docs/problem.md)
 - [Solución](docs/solution.md)
 - [Arquitectura del software](docs/architecture.md)
