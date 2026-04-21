@@ -39,14 +39,6 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 | US-09 | Localización de puntos de encuentro y confirmación de asistencia | [#14](https://github.com/RandomDev-org/random-readme/issues/14) |
 | US-10 | Contribución comunitaria y gestión colaborativa de eventos       | [#15](https://github.com/RandomDev-org/random-readme/issues/15) |
 
-
-## Stack Tecnológico
-
-- Frontend: React + Vite
-- Backend: NestJS
-- Base de Datos: PostgreSQL con PostGIS
-- Arquitectura: Monolito modular de 3 capas
-
 ## Documentación
 
 - [Historias de usuario](https://github.com/RandomDev-org/random-readme/issues)
