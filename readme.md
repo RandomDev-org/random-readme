@@ -22,7 +22,15 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 | Eduardo Blanchard | Product Owner / Designer | Especificación clara de requisitos, Mockups/Prototipos de baja fidelidad, Decisiones de diseño           |
 | Benjamín Isasmendi | Developer | Arquitectura, Modelo de Dominio, Justificación de decisiones técnicas y trade-offs                       |
 | Jason Monroy | Developer | ReqExtrafuncionales, Análisis de trade-offs, Impacto de cambios en requerimientos                        |
-| Vicente Tapia | Developer | Solución y Problemática articuladas, Consistencia entre artefactos                                       
+| Vicente Tapia | Developer | Solución y Problemática articuladas, Consistencia entre artefactos                        
+
+## Historias de Usuario Epicas
+| ID    | Nombre                                                           | Issue                                                           |
+|:------|:-----------------------------------------------------------------|:----------------------------------------------------------------|
+| EP-01 | Gestión y Verificación del Ecosistema Cultural                   | [#19](https://github.com/RandomDev-org/random-readme/issues/19) |
+| EP-02 | Experiencia de Descubrimiento y Networking Musical               | [#20](https://github.com/RandomDev-org/random-readme/issues/20) |
+| EP-03 | Inteligencia de Datos y Captación de Talento                     | [#21](https://github.com/RandomDev-org/random-readme/issues/21) |
+
 
 ## Historias de Usuario
 
