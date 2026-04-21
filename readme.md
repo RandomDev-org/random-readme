@@ -41,10 +41,10 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 
 ## Documentación
 
-- [Historias de usuario](https://github.com/RandomDev-org/random-readme/issues)
 - [Problemática](docs/problem.md)
 - [Solución](docs/solution.md)
-- [Arquitectura del software](docs/architecture.md)
+- [Historias de usuario](https://github.com/RandomDev-org/random-readme/issues)
 - [Requisitos extrafuncionales](docs/functional-requirements.md)
+- [Arquitectura del software](docs/architecture.md)
 - [Modelo de dominio](docs/domain-model.md)
 - [Prototipos Figma](https://try-step-50438657.figma.site/)
