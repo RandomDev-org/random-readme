@@ -37,12 +37,25 @@ classDef db fill:#336791,stroke:#20232a,stroke-width:2px,color:#fff;
 ```
 
 ## Justificación del modelo
-Elegimos un modelo de tres capas (frontend, backend y datos) con un backend estructurado como monolito modular.
-Esta decisión reduce significativamente la complejidad operativa inicial frente
-a una arquitectura de microservicios puros, lo que permite un desarrollo
-más ágil para el equipo. Al mismo tiempo, mantiene una estricta separación
-de responsabilidades, asegurando que el código sea cohesivo, escalable
-y preparado para una futura migración a microservicios si la carga del sistema lo requiere.
+
+### Decisión Arquitectónica: Monolito Modular de Tres Capas
+
+Elegimos un modelo de tres capas (Frontend, Backend y Datos) con un backend estructurado como monolito modular. Esta decisión se fundamenta en los requisitos extrafuncionales priorizados:
+
+#### Escalabilidad (Requisito de Prioridad Alta)
+El sistema debe soportar hasta 10,000 usuarios concurrentes y permitir migración futura a microservicios. La arquitectura modular proporciona los límites claros necesarios para esta transición gradual. Cada módulo (Perfil, Mapa, Gamificación) mantiene responsabilidades independientes, facilitando su extracción a servicios separados conforme crezca la demanda.
+
+#### Rendimiento / Eficiencia (Requisito de Prioridad Alta)
+El mapa debe cargar marcadores en menos de 3 segundos. Utilizamos PostgreSQL con PostGIS para realizar queries espaciales optimizadas directamente en la base de datos, evitando transferencias innecesarias de datos.
+
+#### Disponibilidad (Requisito de Prioridad Alta)
+La aplicación debe estar disponible el 99.5% del tiempo con recuperación automática de errores. La separación clara de módulos permite aislar fallos: si el módulo de gamificación experimenta problemas, el mapa y perfil continúan operacionales.
+
+#### Seguridad (Requisito de Prioridad Media)
+La arquitectura centralizada en un API Gateway permite implementar autenticación, autorización basada en roles y validación/sanitización de entradas en un único punto de entrada. El módulo de Perfil gestiona la identidad de forma centralizada, garantizando integridad de credenciales.
+
+#### Mantenibilidad (Requisito de Prioridad Baja)
+Una arquitectura monolítica modular mantiene separación clara entre módulos, facilitando su comprensión, modificación y documentación. Evita la complejidad operacional de microservicios mientras preserva cohesión en el código.
 
 ### Definición de Módulos
 
