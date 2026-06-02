@@ -14,7 +14,7 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 | Jason Monroy | [@Ginger110](https://github.com/Ginger110) | Developer |
 | Vicente Tapia | [@xSeVeN-bot](https://github.com/xSeVeN-bot) | Developer |
 
-## Responsabilidades del Equipo
+## Responsabilidades del Equipo (Entrega 1)
 
 | Integrante | Rol | Responsabilidades                                                                                        |
 |:-----------|:----|:---------------------------------------------------------------------------------------------------------|
@@ -23,6 +23,18 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 | Benjamín Isasmendi | Developer | Arquitectura, Modelo de Dominio, Justificación de decisiones técnicas y trade-offs                       |
 | Jason Monroy | Developer | ReqExtrafuncionales, Análisis de trade-offs, Impacto de cambios en requerimientos                        |
 | Vicente Tapia | Developer | Solución y Problemática articuladas, Consistencia entre artefactos                        
+
+## Responsabilidades del Equipo (Entrega 2)
+
+| Integrante | Rol | Ítems de la rúbrica a cargo |
+|------------|-----|----------------------------|
+|Ignacio Rivera| Scrum Master |     Desarrollo Api             |
+|Eduardo Blanchard | Product Owner / Designer | Cambios a Historias de Usuario    |
+|Benjamín Isasmendi | Developer | Cambios a Historias de Usuario              |
+|Jason Monroy | Developer |    Cambios a Historias de Usuario            |
+| Vicente Tapia | Developer |  Desarrollo de Api               |
+
+
 
 ## Historias de Usuario Epicas
 | ID    | Nombre                                                           | Issue                                                           |
