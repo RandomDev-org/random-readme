@@ -24,8 +24,7 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 | Jason Monroy | Developer | ReqExtrafuncionales, Análisis de trade-offs, Impacto de cambios en requerimientos                        |
 | Vicente Tapia | Developer | Solución y Problemática articuladas, Consistencia entre artefactos                        
 
-## Responsabilidades del Equipo (Entrega 2)
-
+## Responsabilidades del Equipo (Entrega 2) [Link del Crud](https://github.com/RandomDev-org/simple-crud)
 | Integrante | Rol | Ítems de la rúbrica a cargo |
 |------------|-----|----------------------------|
 |Ignacio Rivera| Scrum Master |     Desarrollo Api             |
@@ -33,6 +32,15 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 |Benjamín Isasmendi | Developer | Cambios a Historias de Usuario              |
 |Jason Monroy | Developer |    Cambios a Historias de Usuario            |
 | Vicente Tapia | Developer |  Desarrollo de Api               |
+
+## Historias Con Clarita Review (Entrega 2)
+| ID    | Nombre                                                           | Issue                                                           |
+|:------|:-----------------------------------------------------------------|:----------------------------------------------------------------|
+| CU-01 | Búsqueda y descubrimiento de eventos                             | [CU-01](https://github.com/RandomDev-org/random-readme/issues/23) |
+| CU-02 | Confirmación y registro de historial                             | [CU-02](https://github.com/RandomDev-org/random-readme/issues/24) |
+| CU-03 | Networking entre músicos                                         | [CU-03](https://github.com/RandomDev-org/random-readme/issues/25) |
+| CU-04 | Verificar perfiles                                               | [CU-04](https://github.com/RandomDev-org/random-readme/issues/27) |
+| CU-05 | Actualizar información de espacios                               | [CU-05](https://github.com/RandomDev-org/random-readme/issues/28) |
 
 
 
