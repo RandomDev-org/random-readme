@@ -29,7 +29,7 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 | Integrante | Rol | Ítems de la rúbrica a cargo |
 |------------|-----|----------------------------|
 |Ignacio Rivera| Scrum Master |     Desarrollo Api             |
-|Eduardo Blanchard | Product Owner / Designer | Cambios a Historias de Usuario    |
+|Eduardo Blanchard | Product Owner / Designer | Testing de Api  |
 |Benjamín Isasmendi | Developer | Cambios a Historias de Usuario              |
 |Jason Monroy | Developer |    Cambios a Historias de Usuario            |
 | Vicente Tapia | Developer |  Desarrollo de Api               |
