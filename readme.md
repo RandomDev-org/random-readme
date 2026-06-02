@@ -68,3 +68,4 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 - [Arquitectura del software](docs/architecture.md)
 - [Modelo de dominio](docs/domain-model.md)
 - [Prototipos Figma](https://try-step-50438657.figma.site/)
+- [API](https://github.com/RandomDev-org/simple-crud)
