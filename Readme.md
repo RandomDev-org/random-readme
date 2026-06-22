@@ -29,7 +29,24 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 ### Variables de entorno
 [Lista de variables necesarias]
 ### Instalación y ejecución (sin Docker)
-[Comandos paso a paso]
+# Como prender el proyecto sin docker
+## Paso 1 
+clonar todos los proyectos
+## Paso 2
+Ir a cada proyecto y ejecutar:
+
+backends:
+```
+npm i
+npm run start:dev
+```
+
+frontend:
+```
+npm i
+npm run dev
+```
+
 ### Instalación y ejecución (con Docker)  <!-- si aplica (bonus) -->
 ## Como prender el proyecto
 # Paso 1:
@@ -53,11 +70,11 @@ Backend: Microservicios con NestJS
 ## Responsabilidades del equipo
 | Integrante | Rol(es) | Ítems de la rúbrica a cargo |
 |------------|---------|-----------------------------|
-| [Nombre 1] | [Rol]   | [Ítems]                     |
-| [Nombre 2] | [Rol]   | [Ítems]                     |
-| [Nombre 1] | [Rol]   | [Ítems]                     |
-| [Nombre 2] | [Rol]   | [Ítems]                     |
-| [Nombre 1] | [Rol]   | [Ítems]                     |
+| [Jason Monroy] | [Technical Developer]   | [Desarrollo]                     |
+| [Vicente Tapia] | [Arquitecto]   | [Análisis]                     |
+| [Eduardo Blanchard] | [Quality Assurance]   | [Pruebas, Calidad]                     |
+| [Benjamín Isasmendi] | [Lead Developer]   | [Desarrollo, Pruebas]                     |
+| [Ignacio Rivera] | [Scrum Master]   | [Desarrollo, Diseño]                     |
  
 ## Bonus (opcional)
 - Contenedores: [sí] — docker-compose en ./docker-compose.yml
