@@ -17,21 +17,27 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 | Diagrama de casos de uso           | [Link](docs/diagarama_casosdeuso.png)  |
 | Especificación de HU               | [Link](docs/EspecificacionHU.md)      |
 | Diagrama de estados                | [Link](docs/diagrama_estados.png)           |
-| Diagrama de despliegue y comp.     | [Link](enlace o imagen)           |
-| Diagrama de componentes            | [Link](enlace o imagen)           |
-| Diagrama de secuencia              | [Link](enlace o imagen)           |
+| Diagrama de despliegue y comp.     | [Link](https://github.com/RandomDev-org/random-readme/blob/main/docs/diagrama_despliegue.png)           |
+| Diagrama de componentes            | [Link](https://github.com/RandomDev-org/random-readme/blob/main/docs/diagrama_componentes.png)           |
+| Diagrama de secuencia              | [Link](https://github.com/RandomDev-org/random-readme/blob/main/docs/diagrama_secuencias.png)           |
 | Casos de prueba                    | [Link](docs/CasosDePrueba.md)     |
 | Deuda técnica / code smells        | [Link](docs/DeudaTecnica.md)      |
  
 ## Instrucciones de instalación y ejecución
 ### Requisitos previos
-[docker compose up --build]
-### Variables de entorno
-[Lista de variables necesarias]
+```
+docker compose up --build
+```
+
 ### Instalación y ejecución (sin Docker)
 # Como prender el proyecto sin docker
 ## Paso 1 
 clonar todos los proyectos
+
+[Frontend](https://github.com/RandomDev-org/backend-maps)
+[Backend gateway](https://github.com/RandomDev-org/backend-gateaway)
+[Backend maps](https://github.com/RandomDev-org/backend-maps)
+[Backend profile](https://github.com/RandomDev-org/backend-profile)
 ## Paso 2
 Ir a cada proyecto y ejecutar:
 
