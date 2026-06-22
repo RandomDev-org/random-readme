@@ -13,15 +13,15 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
 ## Artefactos del proyecto
 | Artefacto                          | Ubicación / enlace          |
 |------------------------------------|-----------------------------|
-| Modelo de dominio                  | [docs/domain-model.md]           |
-| Diagrama de casos de uso           | [docs/diagarama_casosdeuso.png]  |
-| Especificación de HU               | [docs/EspecificacionHU.md]      |
-| Diagrama de estados                | [docs/diagrama_estados.png]           |
-| Diagrama de despliegue y comp.     | [enlace o imagen]           |
-| Diagrama de componentes            | [enlace o imagen]           |
-| Diagrama de secuencia              | [enlace o imagen]           |
-| Casos de prueba                    | [docs/CasosDePrueba.md]     |
-| Deuda técnica / code smells        | [docs/DeudaTecnica.md]      |
+| Modelo de dominio                  | [Link](docs/domain-model.md)           |
+| Diagrama de casos de uso           | [Link](docs/diagarama_casosdeuso.png)  |
+| Especificación de HU               | [Link](docs/EspecificacionHU.md)      |
+| Diagrama de estados                | [Link](docs/diagrama_estados.png)           |
+| Diagrama de despliegue y comp.     | [Link](enlace o imagen)           |
+| Diagrama de componentes            | [Link](enlace o imagen)           |
+| Diagrama de secuencia              | [Link](enlace o imagen)           |
+| Casos de prueba                    | [Link](docs/CasosDePrueba.md)     |
+| Deuda técnica / code smells        | [Link](docs/DeudaTecnica.md)      |
  
 ## Instrucciones de instalación y ejecución
 ### Requisitos previos
