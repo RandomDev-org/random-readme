@@ -1,8 +1,10 @@
-# musicSpot
-Proyecto universitario para la asignatura Fundamentos de Ingeniería de Software. Entrega numero 3
+# MusicSpot
+Proyecto universitario para la asignatura Fundamentos de Ingeniería de Software. 
+Este Readme corresponde a la Entrega numero 3
+para revisar el readme correspondiente a la entrega numero 2 revisar el .MD de legado [Link](readme.md(legacy))
 
 ## Descripción del sistema
-Plataforma colaborativa que conecta a músicos, productores, público y dueños de locales a través de un mapa interactivo de espacios musicales.
+MusicSpot Plataforma colaborativa que conecta a músicos, productores, público y dueños de locales a través de un mapa interactivo de espacios musicales los cuales permiten poder organizar diferentes eventos, actividades y entre otros.
  
 ## Historia de usuario implementada
 | ID    | Nombre                    | Issue |
@@ -25,39 +27,54 @@ Plataforma colaborativa que conecta a músicos, productores, público y dueños 
  
 ## Instrucciones de instalación y ejecución
 ### Requisitos previos
-```
-docker compose up --build
+- Tener [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Solo para instalacion con docker)
+- Cuenta en Github
+- NestJS
+- PostGreSql
+- React/Vite
+  
+  
+
+
+# Instalación y ejecución (sin Docker)
+### Paso 1 
+Clonar todos los proyectos con
+```powershell
+Git Push NombreProyecto
 ```
 
-### Instalación y ejecución (sin Docker)
-# Como prender el proyecto sin docker
-## Paso 1 
-clonar todos los proyectos
-
-[Frontend](https://github.com/RandomDev-org/backend-maps)
-[Backend gateway](https://github.com/RandomDev-org/backend-gateaway)
-[Backend maps](https://github.com/RandomDev-org/backend-maps)
-[Backend profile](https://github.com/RandomDev-org/backend-profile)
-## Paso 2
+- [Frontend](https://github.com/RandomDev-org/backend-maps)
+- [Backend gateway](https://github.com/RandomDev-org/backend-gateaway)
+- [Backend maps](https://github.com/RandomDev-org/backend-maps)
+- [Backend profile](https://github.com/RandomDev-org/backend-profile)
+  
+### Paso 2
 Ir a cada proyecto y ejecutar:
 
-backends:
-```
-npm i
+```powershell
+# 1. backend-maps (TCP :3001)
+cd backend-maps
 npm run start:dev
-```
 
-frontend:
-```
-npm i
+# 2. backend-profile (HTTP :3002, TCP :4002)
+cd backend-profile
+npm run start:dev
+
+# 3. backend-gateaway (HTTP :3000)
+cd backend-gateaway
+npm run start:dev
+
+# 4. frontend (Vite :5173)
+cd frontend
 npm run dev
 ```
 
-### Instalación y ejecución (con Docker)  <!-- si aplica (bonus) -->
+# Instalación y ejecución (con Docker)   
 ## Como prender el proyecto
-# Paso 1:
+### Paso 1:
 Clonar los repositorios dentro de una misma carpeta raiz.
 ```
+Ejemplo:
 carpeta raiz/
 ├── backend-gateaway/   (docker-compose.yml)
 ├── backend-maps/       (Dockerfile)
@@ -65,8 +82,19 @@ carpeta raiz/
 └── frontend/           (Dockerfile + nginx.conf)
 ```
 
-# Paso 2:
-ir a `backend-gateaway` y ejecutar `docker compose up --build`
+### Paso 2:
+Ejecutar `docker compose up --build` tal que:
+```powershell
+cd backend-gateaway
+docker compose up --build
+```
+
+### Servicios Implementados
+| Servicio | URL |
+|---|---|
+| Frontend | http://localhost |
+| API Gateway | http://localhost:3000 |
+| Profile (Swagger) | http://localhost:3002/api/docs |
 
 # Stacks utilizados
 
